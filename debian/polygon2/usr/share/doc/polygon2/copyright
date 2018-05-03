@@ -1,0 +1,56 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: polygon2
+Source: https://bitbucket.org/jraedler/polygon2/src
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     HISTORY
+           MANIFEST
+           Polygon/IO.py
+           Polygon/Shapes.py
+           Polygon/Utils.py
+           Polygon/__init__.py
+           README
+           doc/Examples.py
+           doc/Polygon.pdf
+           doc/Polygon.txt
+           doc/logo.py
+           doc/testpoly.gpf
+           setup.cfg.mingw32
+           setup.py
+           src/PolyUtil.c
+           src/PolyUtil.h
+           src/cPolygon.c
+           test/Test.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/gpc.c
+           src/gpc.h
+Copyright: : (C) 1997-2004, Advanced Interfaces Group, University of Manchester.
+License:   __UNKNOWN__
+ This software is free for non-commercial use. It may be copied,
+ modified, and redistributed provided that this copyright notice
+ is preserved on all copies. The intellectual property rights of
+ the algorithms used reside with the University of Manchester
+ Advanced Interfaces Group.
+ .
+ You may not use this software, in whole or in part, in support
+ of any commercial product without the express consent of the
+ author.
+ .
+ There is no warranty or other guarantee of fitness of this
+ software for any purpose. It is provided solely "as is".
+
+Files: debian/*
+Copyright: 2018 Athanaseus Ramaila <ramaila.jat@gmail.com>
+License: MIT
+
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         doc/logo.svg
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
