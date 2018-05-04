@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+export PYBUILD_NAME = polygon2
+
+%:
+	dh $@ --with python2 --buildsystem=pybuild
+
+override_dh_python2:
+	dh_python2
+	dh_numpy

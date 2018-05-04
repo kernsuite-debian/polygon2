@@ -1,0 +1,20 @@
+Source: polygon2
+Section: science
+Priority: optional
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>=9),
+               python-all,
+               python-dev,
+               python-numpy,
+               dh-python
+Standards-Version: 3.9.8
+Homepage: http://www.j-raedler.de/projects/polygon
+X-Python-Version: >= 2.6
+
+Package: polygon2
+Architecture: any
+Multi-Arch: foreign
+Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Description: Polygon is a Python package that handles polygonal shapes in 2D.
+ It contains Python bindings for gpc, the excellent General Polygon Clipping
+ Library by Alan Murta and some extensions written in C and pure Python
